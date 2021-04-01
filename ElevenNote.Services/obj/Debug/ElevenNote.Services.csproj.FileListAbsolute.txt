@@ -9,6 +9,7 @@ C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csprojAssemblyReference.cache
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CoreCompileInputs.cache
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.dll
