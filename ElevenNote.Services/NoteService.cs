@@ -11,12 +11,12 @@ namespace ElevenNote.Services
     public class NoteService
     {
 
-        private readonly Guid _userID;
+        private readonly Guid _userId;
 
 
         public NoteService(Guid userId)
         {
-            _userID = userId;
+            _userId = userId;
         }
 
         public bool CreateNote(NoteCreate model)
@@ -24,11 +24,10 @@ namespace ElevenNote.Services
             var entity =
                 new Note()
                 {
-                    OwnerId = _userID,
+                    OwnerId = _userId,
                     Title = model.Title,
                     Content = model.Content,
                     CreatedUtc = DateTimeOffset.Now
-
                 };
 
             using (var ctx = new ApplicationDbContext())
@@ -38,29 +37,49 @@ namespace ElevenNote.Services
             }
         }
 
-        public IEnumerable<NoteListItem> GetNotes()
+         public IEnumerable<NoteListItem> GetNotes()
+         {
+             using (var ctx = new ApplicationDbContext())
+             {
+                 var query = 
+                     ctx
+                         .Notes
+                         .Where(e => e.OwnerId == _userId)
+                         .Select(
+                             e =>
+                                 new NoteListItem
+                                 {
+                                     NoteId = e.NoteId,
+                                     Title = e.Title,
+                                     CreatedUtc = e.CreatedUtc
+                                 }
+                         );
+
+                 return query.ToArray();
+             }
+         }
+
+        public NoteDetail GetNoteById(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query =
+                var entity =
                     ctx
                         .Notes
-                        .Where(e => e.OwnerId == _userID)
-                        .Select(
-                        e =>
-                            new NoteListItem
-                            {
-                                NoteId = e.NoteId,
-                                Title = e.Title,
-                                CreatedUtc = e.CreatedUtc
-                            }
-
-
-                            );
-                return query.ToArray();
-
+                        .Single(e => e.NoteId == id && e.OwnerId == _userId);
+                return
+                    new NoteDetail
+                    {
+                        NoteId = entity.NoteId,
+                        Title = entity.Title,
+                        Content = entity.Content,
+                        CreatedUtc = entity.CreatedUtc,
+                        ModifiedUtc = entity.ModifiedUtc,
+                    };
             }
+
         }
+
 
     }
 }

@@ -16,3 +16,4 @@ C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CopyComplete
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
+C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csprojAssemblyReference.cache

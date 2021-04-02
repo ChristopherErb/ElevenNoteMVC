@@ -14,3 +14,6 @@ C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.dll
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.pdb
 C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.csprojAssemblyReference.cache
+C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Models\bin\Debug\ElevenNote.Data.dll
+C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Models\bin\Debug\ElevenNote.Data.pdb
+C:\Users\Christopher\Desktop\ElevenFiftyProjects\RedBadge\ElevenNote\ElevenNote.Models\bin\Debug\ElevenNote.Data.dll.config
